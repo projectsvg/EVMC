@@ -1,0 +1,291 @@
+
+
+@font-face {
+    font-family: 'DINRegular';
+    src: url('fonts/DINRegular.eot');
+    src: url('fonts/DINRegular.eot') format('embedded-opentype'),
+         url('fonts/DINRegular.woff2') format('woff2'),
+         url('fonts/DINRegular.woff') format('woff'),
+         url('fonts/DINRegular.ttf') format('truetype'),
+         url('fonts/DINRegular.svg#DINRegular') format('svg');
+}
+
+
+
+
+i {font-family: fontawesome;}
+
+h1,h2,h3,h4,h5,h6,p{
+	 font-family: 'DINRegular';
+}
+
+h2{
+	font-size: 45px;
+	color: #1A428A;
+	}
+h4{
+	font-size: 30px;
+	}
+h5{
+	font-size: 22px;
+	}
+
+
+.red-bg{
+	background: #8E1537;
+}
+.light-blue{
+	background: #D9E9F7; 
+}
+.border-radius{
+	border-radius: 25px;
+}
+.blue-bg{
+	background: #1A428A;
+}
+.topbar-nav a{
+	color: #282828;
+}
+
+.topbar-nav .fa-envelope,
+.topbar-nav .fa-phone{
+	background: #5F7BAD;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.client-login{
+	height: 40px;
+    padding: 0px 15px 0 15px;
+}
+.client-login i {
+    border-right: 1px #fff solid;
+    line-height: 38px;
+    padding-right: 10px;
+}
+.client-login:hover{
+	background: #8E1537;
+}
+
+#home-carousel .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home-carousel .carousel-caption{
+	position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    top: 45%;
+}
+#home-carousel .carousel-indicators{
+	justify-content: left;
+}
+
+#home-carousel h2{
+	color: #fff;
+}
+#about{
+	margin-bottom: 80px;
+}
+
+#about strong, #team-carousel strong, #research strong, #laboratory strong{
+	color: #1A428A;
+}
+#about img{
+    position: relative;
+    top: 35px;
+    left: 65px;
+    z-index: 1;
+}
+#about .col-md-8{
+	padding: 40px 55px 24px 100px;
+}
+#team-carousel .card{
+	border: none;
+}
+#team-carousel .card-body{
+	padding: 5px;
+}
+#team-carousel .card-title {
+    margin-bottom: 1px;
+}
+#team-carousel strong, #research strong, #events strong {
+	float: right;
+}
+
+#hospital-services{
+	background: #1A428A;
+	margin-top: 150px;
+	padding-bottom: 100px;
+}
+#hospital-services h2{
+	padding-top: 90px;
+}
+#hospital-services p{
+	padding-bottom: 55px;
+}
+#hospital-services h2, #hospital-services p{
+	color: #fff;
+	text-align: center;
+}
+.services{
+	border-radius: 50%;
+	border: solid 2px #fff; 
+	height: 120px;
+	margin:0 auto;
+	width: 120px;
+}
+.services:hover {
+    background: #8E1537;
+}
+.services img{
+	width: 75%;
+    margin: 10px auto;
+    display: table;
+}
+#hospital-services h5{
+	color: #fff;
+	text-align: center;
+}
+
+#research .contact{
+	padding: 120px;
+}
+
+#laboratory {
+  padding: 150px;
+  background: url(../img/laboratory-img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 80px;
+}
+
+#events .svg-icon{
+	width: 10%;
+    vertical-align: bottom;
+}
+#events h5{
+	color: #1A428A;
+	font-size: 30px;
+	line-height: 30px;
+	width: 100%;
+}
+.events-content p{
+	padding: 30px 110px 10px 0
+}
+
+#opportunities{
+	margin-top: 100px;
+}
+.opportunities-border{
+	border-top: 15px #D9E9F7 solid; 
+}
+.oppor-content{
+	padding: 75px;
+}
+
+#footer{
+  background: url(../img/footer-map.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 250px;
+  padding-bottom: 50px;	
+  }
+#footer .right-side{
+	float: right;
+}
+
+ .footer{
+ 	background: #fff;
+ 	padding: 20px;
+ } 
+
+ .footer i{
+ 	color: #1A428A;
+ }
+
+ .footer span{
+ 	margin-left: 20px;
+ }
+
+#footer-menu{
+	padding: 15px 0 15px 0;
+}
+
+#footer-menu .nav{
+	font-size: 12px;
+	color: #000;
+}
+#footer-menu .nav-link {
+   padding: .5rem 5px;
+}
+#footer-menu a {
+   color: #000;
+}
+
+.socail-icon{
+	background: #1A428A;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+#footer-menu .col-md-3{
+	margin-top: 40px;
+}
+#footer-menu .col-md-3 p{
+	font-size: 12px;
+}
+
+
+
+@media only screen and (max-width:360px){
+
+#home-carousel .carousel-item {
+  height: inherit;
+  min-height: inherit;
+}
+#about .col-md-7 {
+    padding: 20px;
+}
+#about img {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.events-content p {
+    padding: 0;
+}
+#laboratory {
+  padding: 0;
+}
+#research .contact {
+    padding: 20px;
+}
+.oppor-content {
+    padding: 20px;
+}
+#footer .right-side{
+	float: left;
+}
+
+}
